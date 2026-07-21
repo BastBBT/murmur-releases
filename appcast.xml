@@ -5,13 +5,42 @@
     <description>Mises à jour de Murmur</description>
     <language>fr</language>
     <item>
-      <title>Version 1.1</title>
-      <pubDate>Tue, 21 Jul 2026 10:40:25 +0200</pubDate>
-      <sparkle:version>2</sparkle:version>
-      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+      <title>Version 1.2</title>
+      <description><![CDATA[
+<h3>Choisis tes propres raccourcis 🎛️</h3>
+<p>Nouvel onglet <strong>Raccourcis</strong> dans les réglages (menu 🎙 → Réglages, ou ⌘,) :</p>
+<ul>
+<li><strong>Raccourci clavier</strong> — remplace ⌥ droite par la touche modificatrice de ton choix</li>
+</ul>
+<p>(⌘, ⌃, ⇧, fn, gauche ou droite). Clique « Modifier… » puis appuie sur la touche.</p>
+<ul>
+<li><strong>Raccourci souris</strong> — clic molette par défaut, mais tu peux assigner les boutons</li>
+</ul>
+<p>latéraux de ta souris. Clique « Modifier… » puis clique avec le bouton voulu.</p>
+<ul>
+<li>Chaque déclencheur s&#x27;active ou se désactive indépendamment ; le menu rappelle</li>
+</ul>
+<p>en permanence ceux qui sont actifs.</p>
+<h3>Éditeur de modes intégré ✍️</h3>
+<p>Plus besoin de modifier un fichier JSON à la main : l&#x27;onglet <strong>Modes</strong> permet de créer,</p>
+<p>renommer, réordonner et supprimer tes modes, et surtout d&#x27;ajuster la consigne de</p>
+<p>correction appliquée à chaque dictée. Tout est sauvegardé au fil de la frappe.</p>
+<h3>Aussi</h3>
+<ul>
+<li><strong>Historique</strong> des dernières dictées dans le menu (un clic recopie le texte).</li>
+<li><strong>Mises à jour automatiques</strong> : cette version et les suivantes s&#x27;installent en un clic.</li>
+<li>Corrections de fiabilité : le raccourci ne peut plus rester bloqué, et l&#x27;app ne se fige</li>
+</ul>
+<p>plus quand l&#x27;enregistrement ne contient pas de parole.</p>
+<p><em>💡 Si tes transcriptions reviennent vides, vérifie ton micro : avec des AirPods, macOS</em></p>
+<p><em>bascule sur un micro Bluetooth dégradé. Réglages Système → Son → Entrée → micro du Mac.</em></p>
+      ]]></description>
+      <pubDate>Tue, 21 Jul 2026 10:59:54 +0200</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/BastBBT/murmur-releases/releases/download/v1.1/Murmur-1.1-update.zip"
-                 sparkle:edSignature="xnmHZawit4vqSumOvcHv0w5msYPGlT55SQRQ3jpqB+bdZSXHCqGNuLWnceAuWxeVEU+TZFBzs/WUKQfpjT8AAQ==" length="1280662"
+      <enclosure url="https://github.com/BastBBT/murmur-releases/releases/download/v1.2/Murmur-1.2-update.zip"
+                 sparkle:edSignature="67hRlWOy4RM0uHppoq44FlKNj9B+s0P83+kLgoNzzXKeOPnBmIa+0AurewV8cSSdyjY8MG18BE34DC8b/zA+Ag==" length="1304033"
                  type="application/octet-stream" />
     </item>
   </channel>
