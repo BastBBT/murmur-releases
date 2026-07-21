@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Murmur</title>
+    <description>Mises à jour de Murmur</description>
+    <language>fr</language>
+    <item>
+      <title>Version 1.1</title>
+      <pubDate>Tue, 21 Jul 2026 10:40:25 +0200</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <enclosure url="https://github.com/BastBBT/murmur-releases/releases/download/v1.1/Murmur-1.1-update.zip"
+                 sparkle:edSignature="xnmHZawit4vqSumOvcHv0w5msYPGlT55SQRQ3jpqB+bdZSXHCqGNuLWnceAuWxeVEU+TZFBzs/WUKQfpjT8AAQ==" length="1280662"
+                 type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
