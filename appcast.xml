@@ -5,42 +5,55 @@
     <description>Mises à jour de Murmur</description>
     <language>fr</language>
     <item>
-      <title>Version 1.2</title>
+      <title>Version 1.3</title>
       <description><![CDATA[
-<h3>Choisis tes propres raccourcis 🎛️</h3>
-<p>Nouvel onglet <strong>Raccourcis</strong> dans les réglages (menu 🎙 → Réglages, ou ⌘,) :</p>
+<h3>Les modes ne répondent plus à ta place 🎯</h3>
+<p>Correction importante : jusqu&#x27;ici, dicter une phrase qui ressemblait à une question</p>
+<p>poussait l&#x27;IA à y <strong>répondre</strong> au lieu de corriger le texte. Dicter « quelle est la</p>
+<p>capitale de l&#x27;Italie » insérait « Rome ». C&#x27;est réglé : ta dictée est désormais traitée</p>
+<p>comme du texte à réécrire, jamais comme une question posée au modèle.</p>
+<p>Dans la foulée, la <strong>langue est respectée</strong> : dicter en anglais produit un résultat en</p>
+<p>anglais, même si la consigne du mode est rédigée en français.</p>
+<h3>Choisis tes raccourcis 🎛️</h3>
+<p>Nouvel onglet <strong>Raccourcis</strong> (menu 🎙 → Réglages, ou ⌘,) :</p>
 <ul>
-<li><strong>Raccourci clavier</strong> — remplace ⌥ droite par la touche modificatrice de ton choix</li>
+<li><strong>Clavier</strong> — remplace ⌥ droite par la touche modificatrice de ton choix. Clique</li>
 </ul>
-<p>(⌘, ⌃, ⇧, fn, gauche ou droite). Clique « Modifier… » puis appuie sur la touche.</p>
+<p>« Modifier… » puis appuie sur la touche.</p>
 <ul>
-<li><strong>Raccourci souris</strong> — clic molette par défaut, mais tu peux assigner les boutons</li>
+<li><strong>Souris</strong> — assigne le clic molette ou un bouton latéral. Clic bref = démarre/arrête</li>
 </ul>
-<p>latéraux de ta souris. Clique « Modifier… » puis clique avec le bouton voulu.</p>
+<p>en mains libres, clic maintenu = dicte le temps du clic.</p>
 <ul>
-<li>Chaque déclencheur s&#x27;active ou se désactive indépendamment ; le menu rappelle</li>
+<li>Chaque déclencheur s&#x27;active indépendamment ; le menu rappelle ceux qui sont actifs.</li>
 </ul>
-<p>en permanence ceux qui sont actifs.</p>
-<h3>Éditeur de modes intégré ✍️</h3>
-<p>Plus besoin de modifier un fichier JSON à la main : l&#x27;onglet <strong>Modes</strong> permet de créer,</p>
-<p>renommer, réordonner et supprimer tes modes, et surtout d&#x27;ajuster la consigne de</p>
-<p>correction appliquée à chaque dictée. Tout est sauvegardé au fil de la frappe.</p>
-<h3>Aussi</h3>
+<h3>Historique consultable 🕘</h3>
+<p>Nouvel onglet <strong>Historique</strong> : recherche dans toutes tes dictées, texte intégral</p>
+<p>sélectionnable, date et mode affichés. Quand un mode a retouché ton texte, tu vois</p>
+<p><strong>la transcription brute et le résultat final côte à côte</strong> — de quoi juger si le mode</p>
+<p>t&#x27;apporte vraiment quelque chose. Suppression possible dictée par dictée.</p>
+<h3>Éditeur de modes ✍️</h3>
+<p>Crée, renomme et réordonne tes modes sans toucher au moindre fichier, et ajuste la</p>
+<p>consigne de correction appliquée à chaque dictée. <strong>Le copier-coller fonctionne enfin</strong></p>
+<p>dans ces champs (⌘C / ⌘V / ⌘Z étaient inopérants).</p>
+<h3>Plus rien ne se passe en silence</h3>
 <ul>
-<li><strong>Historique</strong> des dernières dictées dans le menu (un clic recopie le texte).</li>
-<li><strong>Mises à jour automatiques</strong> : cette version et les suivantes s&#x27;installent en un clic.</li>
-<li>Corrections de fiabilité : le raccourci ne peut plus rester bloqué, et l&#x27;app ne se fige</li>
+<li>L&#x27;icône <strong>s&#x27;anime</strong> pendant que l&#x27;IA travaille : fini le doute sur ce qui se passe.</li>
+<li>Un mode qui ne peut rien faire est marqué <strong>« (sans effet) »</strong>, avec un lien direct</li>
 </ul>
-<p>plus quand l&#x27;enregistrement ne contient pas de parole.</p>
-<p><em>💡 Si tes transcriptions reviennent vides, vérifie ton micro : avec des AirPods, macOS</em></p>
-<p><em>bascule sur un micro Bluetooth dégradé. Réglages Système → Son → Entrée → micro du Mac.</em></p>
+<p>vers les réglages — auparavant, il collait le texte brut sans prévenir.</p>
+<ul>
+<li>Le téléchargement d&#x27;un modèle de langue s&#x27;affiche dans le menu.</li>
+</ul>
+<p><em>💡 Transcriptions vides ? Vérifie ton micro : avec des AirPods, macOS bascule sur un</em></p>
+<p><em>micro Bluetooth dégradé. Réglages Système → Son → Entrée → micro du Mac.</em></p>
       ]]></description>
-      <pubDate>Tue, 21 Jul 2026 10:59:54 +0200</pubDate>
-      <sparkle:version>3</sparkle:version>
-      <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+      <pubDate>Tue, 21 Jul 2026 15:54:47 +0200</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/BastBBT/murmur-releases/releases/download/v1.2/Murmur-1.2-update.zip"
-                 sparkle:edSignature="67hRlWOy4RM0uHppoq44FlKNj9B+s0P83+kLgoNzzXKeOPnBmIa+0AurewV8cSSdyjY8MG18BE34DC8b/zA+Ag==" length="1304033"
+      <enclosure url="https://github.com/BastBBT/murmur-releases/releases/download/v1.3/Murmur-1.3-update.zip"
+                 sparkle:edSignature="4ldyHhFqOlgX6zLxYUNaskBo0owOviN9WO7OVQBfWrBRrktFPV4ysrTXy8gjfFHWcmYiAi6V64t7mHzkMU52DQ==" length="1357733"
                  type="application/octet-stream" />
     </item>
   </channel>
